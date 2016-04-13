@@ -18,4 +18,6 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/dheerajd88/knife-test"
   s.require_paths = ["lib"]
   s.add_development_dependency 'chef',  '~> 12.7.2', '>= 12.2.1'
+  s.add_dependency "knife-windows", "~> 1.0"
+  s.add_dependency "knife-azure", "~> 1.6.0.rc.0"
 end
